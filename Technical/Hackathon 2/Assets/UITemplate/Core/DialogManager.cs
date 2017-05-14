@@ -86,7 +86,7 @@ public class DialogManager : MonoSingleton<DialogManager>
         }
         else
         {
-            this.overlay = ((GameObject)Instantiate(Resources.Load("GUI/UIOverlay"))).GetComponent<UIOverlay>();
+            this.overlay = ((GameObject)Instantiate(Resources.Load("Dialog/UIOverlay"))).GetComponent<UIOverlay>();
             this.overlay.transform.SetParent(this.scene.panelPopup);
             this.overlay.transform.localScale = Vector3.one;
             this.overlay.transform.localPosition = Vector3.zero;

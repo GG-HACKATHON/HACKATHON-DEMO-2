@@ -11,5 +11,7 @@ public class DialogGamePause : MonoBehaviour {
         DialogManager.Instance.ShowMessageBox("Bạn có muốn thoát không?", MESSAGETYPE.YES_NO, () => this.onExit());
     }
     void onExit()
-    { }
+    {
+
+    }
 }
