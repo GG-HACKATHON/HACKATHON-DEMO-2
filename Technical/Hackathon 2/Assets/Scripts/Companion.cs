@@ -13,12 +13,15 @@ public class Companion : MonoBehaviour {
     public float hp;
     public float speed;
     public float damage;
+    public int number = 0; // number of order in line
 
     public GameObject leader;
-    public Vector3 oldPositon;
 
     delegate void Action();
     Action Move;
+
+    List<Vector3> recoderPosition = new List<Vector3>();
+    float time = 0.1f;
 
     public virtual void Start()
     {
@@ -29,10 +32,24 @@ public class Companion : MonoBehaviour {
     {
         if (leader == null)
         {
-            if (Input.GetKeyDown(KeyCode.DownArrow)) Move = MoveDown;
-            else if (Input.GetKeyDown(KeyCode.UpArrow)) Move = MoveUp;
-            else if (Input.GetKeyDown(KeyCode.LeftArrow)) Move = MoveLeft;
-            else if (Input.GetKeyDown(KeyCode.RightArrow)) Move = MoveRight;
+            recoderPosition.Add(transform.position);
+
+            if (Input.GetKeyDown(KeyCode.DownArrow)) 
+            { 
+                Move = MoveDown;
+            }
+            else if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                Move = MoveUp; 
+            }
+            else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            { 
+                Move = MoveLeft; 
+            }
+            else if (Input.GetKeyDown(KeyCode.RightArrow)) 
+            {
+                Move = MoveRight; 
+            }
         }
         else
         {
@@ -106,7 +123,8 @@ public class Companion : MonoBehaviour {
 
     public virtual void MoveFollow()
     {
-
+        var recoder = leader.GetComponent<Companion>().recoderPosition;
+        transform.position = recoder[recoder.Count - 30 * number];
     }
 
     public virtual void OnHit() 
