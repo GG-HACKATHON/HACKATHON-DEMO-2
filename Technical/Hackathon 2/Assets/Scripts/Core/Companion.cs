@@ -11,11 +11,6 @@ public enum Direction
 }
 
 public class Companion : MonoBehaviour {
-    
-
-    protected float health;
-
-    PlayerType type;
 
     Animator anim;
 

@@ -19,7 +19,11 @@ public class Line : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            AddCompanion();
+            AddCompanionByType((CompanionManager.CompanionType)Random.Range(0, 3));
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            RemoveLastCompanion();
         }
         
     }
@@ -29,6 +33,30 @@ public class Line : MonoBehaviour {
     {
         Vector3 pos = new Vector3(100, 100);
         GameObject go = Instantiate(panda, pos, Quaternion.identity, transform) as GameObject;
+
+        if (line.Count > 0)
+        {
+            go.GetComponent<Companion>().leader = line[0];
+            go.GetComponent<Companion>().number = line.Count;
+            line.Add(go);
+        }
+        else
+        {
+            line.Add(go);
+        }
+    }
+
+    public void AddCompanionByType(CompanionManager.CompanionType type)
+    {
+        
+        GameObject ori = CompanionManager.Instance.GetCompanionByType(type);
+        if (ori == null)
+        {
+            return;
+        }
+
+        Vector3 pos = new Vector3(100, 100);
+        GameObject go = Instantiate(ori, pos, Quaternion.identity, transform) as GameObject;
 
         if (line.Count > 0)
         {
