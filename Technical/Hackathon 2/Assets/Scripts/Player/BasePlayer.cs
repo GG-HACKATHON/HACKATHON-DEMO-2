@@ -29,7 +29,7 @@ public class BasePlayer : MonoBehaviour {
 	// Update is called once per frame
 	public virtual void OnUpdate()
     {
-        //UpdateKeyboard();
+        UpdateKeyboard();
         UpdateAnim();
     }
 
