@@ -2,12 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerItemType
+{
+    NEEDLE,
+}
+
 public class BaseItem : MonoBehaviour {
+
+    protected PlayerItemType type;
 
     void OnTriggerEnter2D(Collider2D target)
     {
         if (target.tag == "Enemy")
         {
+            switch(type)
+            {
+                case PlayerItemType.NEEDLE:
+                    target.gameObject.GetComponent<BaseEnemy>().MinusHealth(10);
+                    break;
+            }
             Destroy(gameObject);
         }
     }

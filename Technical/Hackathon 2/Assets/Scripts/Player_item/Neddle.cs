@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Neddle : BaseItem {
 
     private GameObject target;
@@ -14,7 +15,7 @@ public class Neddle : BaseItem {
 
 	// Use this for initialization
 	void Start () {
-		
+        type = PlayerItemType.NEEDLE;
 	}
 	
 	// Update is called once per frame
