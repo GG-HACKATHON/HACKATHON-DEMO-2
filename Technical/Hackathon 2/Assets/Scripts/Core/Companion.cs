@@ -20,14 +20,6 @@ public class Companion : MonoBehaviour {
     Animator anim;
 
     Direction direction;
-    // Use this for initialization
-
-    // Update is called once per frame
-    //public virtual void OnUpdate()
-    //{
-    //    //UpdateKeyboard();
-    //    UpdateAnim();
-    //}
 
     public virtual void OnStart()
     {
@@ -99,6 +91,7 @@ public class Companion : MonoBehaviour {
     public float hp;
     public float speed;
     public float damage;
+    public int distance;
     public int number = 0; // number of order in line
 
     public GameObject leader;
@@ -224,8 +217,8 @@ public class Companion : MonoBehaviour {
     public virtual void MoveFollow()
     {
         var recorder = leader.GetComponent<Companion>().recorder;
-        transform.position = recorder[recorder.Count - 30 * number].position;
-        direction = recorder[recorder.Count - 30 * number].direction;
+        transform.position = recorder[recorder.Count - distance * number].position;
+        direction = recorder[recorder.Count - distance * number].direction;
         UpdateAnim();
     }
 

@@ -15,10 +15,20 @@ public class Line : MonoBehaviour {
         line.Add(leader.gameObject);
     }
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            AddCompanion();
+        }
+        
+    }
+
     [ContextMenu("Add companion")]
     public void AddCompanion()
     {
-        GameObject go = Instantiate(panda, transform) as GameObject;
+        Vector3 pos = new Vector3(100, 100);
+        GameObject go = Instantiate(panda, pos, Quaternion.identity, transform) as GameObject;
 
         if (line.Count > 0)
         {
