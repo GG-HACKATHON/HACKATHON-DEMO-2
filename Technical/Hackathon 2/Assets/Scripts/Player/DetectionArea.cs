@@ -25,7 +25,7 @@ public class DetectionArea : MonoBehaviour {
             {
                 timeToSpawn = 1.0f;
                 neddle = GameObject.Instantiate(PlayerItemManager.Instance.Needle,
-                        transform.root.gameObject.transform.position,
+                        transform.parent.gameObject.transform.position,
                         Quaternion.identity);
                 neddle.GetComponent<Neddle>().Target = curEnemy;
             }
