@@ -8,6 +8,7 @@ public class RockMan : BaseEnemy {
     void Start()
     {
         health = 50;
+        type = EnemyType.ROCKMAN;
         OnStart();
     }
 

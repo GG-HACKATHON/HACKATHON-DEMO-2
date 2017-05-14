@@ -1,9 +1,97 @@
 fileFormatVersion: 2
 guid: 1a003d852d2923c4da87fed3798781b1
-timeCreated: 1494735465
+timeCreated: 1494758893
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enemy01 copy_0
+    21300002: Enemy01 copy_1
+    21300004: Enemy01 copy_2
+    21300006: Enemy01 copy_3
+    21300008: Enemy01 copy_4
+    21300010: Enemy01 copy_5
+    21300012: Enemy01 copy_6
+    21300014: Enemy01 copy_7
+    21300016: Enemy01 copy_8
+    21300018: Enemy01 copy_9
+    21300020: Enemy01 copy_10
+    21300022: Enemy01 copy_11
+    21300024: Enemy01 copy_12
+    21300026: Enemy01 copy_13
+    21300028: Enemy01 copy_14
+    21300030: Enemy01 copy_15
+    21300032: Enemy01 copy_16
+    21300034: Enemy01 copy_17
+    21300036: Enemy01 copy_18
+    21300038: Enemy01 copy_19
+    21300040: Enemy01 copy_20
+    21300042: Enemy01 copy_21
+    21300044: Enemy01 copy_22
+    21300046: Enemy01 copy_23
+    21300048: Enemy01 copy_24
+    21300050: Enemy01 copy_25
+    21300052: Enemy01 copy_26
+    21300054: Enemy01 copy_27
+    21300056: Enemy01 copy_28
+    21300058: Enemy01 copy_29
+    21300060: Enemy01 copy_30
+    21300062: Enemy01 copy_31
+    21300064: Enemy01 copy_32
+    21300066: Enemy01 copy_33
+    21300068: Enemy01 copy_34
+    21300070: Enemy01 copy_35
+    21300072: Enemy01 copy_36
+    21300074: Enemy01 copy_37
+    21300076: Enemy01 copy_38
+    21300078: Enemy01 copy_39
+    21300080: Enemy01 copy_40
+    21300082: Enemy01 copy_41
+    21300084: Enemy01 copy_42
+    21300086: Enemy01 copy_43
+    21300088: Enemy01 copy_44
+    21300090: Enemy01 copy_45
+    21300092: Enemy01 copy_46
+    21300094: Enemy01 copy_47
+    21300096: Enemy01 copy_48
+    21300098: Enemy01 copy_49
+    21300100: Enemy01 copy_50
+    21300102: Enemy01 copy_51
+    21300104: Enemy01 copy_52
+    21300106: Enemy01 copy_53
+    21300108: Enemy01 copy_54
+    21300110: Enemy01 copy_55
+    21300112: Enemy01 copy_56
+    21300114: Enemy01 copy_57
+    21300116: Enemy01 copy_58
+    21300118: Enemy01 copy_59
+    21300120: Enemy01 copy_60
+    21300122: Enemy01 copy_61
+    21300124: Enemy01 copy_62
+    21300126: Enemy01 copy_63
+    21300128: Enemy01 copy_64
+    21300130: Enemy01 copy_65
+    21300132: Enemy01 copy_66
+    21300134: Enemy01 copy_67
+    21300136: Enemy01 copy_68
+    21300138: Enemy01 copy_69
+    21300140: Enemy01 copy_70
+    21300142: Enemy01 copy_71
+    21300144: Enemy01 copy_72
+    21300146: Enemy01 copy_73
+    21300148: Enemy01 copy_74
+    21300150: Enemy01 copy_75
+    21300152: Enemy01 copy_76
+    21300154: Enemy01 copy_77
+    21300156: Enemy01 copy_78
+    21300158: Enemy01 copy_79
+    21300160: Enemy01 copy_80
+    21300162: Enemy01 copy_81
+    21300164: Enemy01 copy_82
+    21300166: Enemy01 copy_83
+    21300168: Enemy01 copy_84
+    21300170: Enemy01 copy_85
+    21300172: Enemy01 copy_86
+    21300174: Enemy01 copy_87
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +122,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +146,1169 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemy01 copy_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 492
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 492
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 492
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 492
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 492
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 492
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 492
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 492
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_8
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 494
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 494
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_10
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 494
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_11
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 494
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_12
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 492
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_13
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 492
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_14
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 492
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_15
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 492
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 396
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 396
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 396
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_19
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 396
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 396
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_21
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 396
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 396
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 396
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_24
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 396
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_25
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 396
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_26
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 396
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_27
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 396
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_28
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 396
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_29
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 396
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_30
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 396
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_31
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 396
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 300
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 300
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_34
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 300
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_35
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 300
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 300
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_37
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 300
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_38
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 300
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_39
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 300
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_40
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 300
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_41
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 300
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_42
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 301
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_43
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 301
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_44
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 301
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_45
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 301
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_46
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 301
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_47
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 300
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 204
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_49
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_50
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 204
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 204
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 204
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 204
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_54
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 204
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_55
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 204
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_56
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 204
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 204
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_58
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 205
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_59
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 205
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_60
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 205
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_61
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 205
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_62
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 205
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 109
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_64
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 109
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_65
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 109
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_66
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 109
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_67
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 109
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_68
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 109
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_69
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 108
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_70
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 108
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_71
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 108
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_72
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 109
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_73
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 109
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_74
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 109
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_75
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 110
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_76
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 109
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_77
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 109
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_78
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 108
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_79
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_80
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 12
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 12
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_82
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 13
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_83
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 13
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_84
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_85
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 12
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_86
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 12
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy01 copy_87
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 12
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
