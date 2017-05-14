@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Direction
+{
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+}
+
 public class Companion : MonoBehaviour {
-    private enum Direction
-    {
-        LEFT,
-        RIGHT,
-        UP,
-        DOWN
-    }
+    
 
     protected float health;
 
@@ -104,7 +106,19 @@ public class Companion : MonoBehaviour {
     delegate void Action();
     Action Move;
 
-    List<Vector3> recoderPosition = new List<Vector3>();
+    public class MoveRecoder
+    {
+        public Vector3 position;
+        public Direction direction;
+
+        public MoveRecoder(Vector3 position, Direction direction)
+        {
+            this.position = position;
+            this.direction = direction;
+        }
+    }
+
+    List<MoveRecoder> recorder = new List<MoveRecoder>();
     float time = 0.1f;
 
     public virtual void Start()
@@ -117,7 +131,6 @@ public class Companion : MonoBehaviour {
     {
         if (leader == null)
         {
-            recoderPosition.Add(transform.position);
             UpdateAnim();
             if (Input.GetKeyDown(KeyCode.DownArrow)) 
             { 
@@ -133,9 +146,10 @@ public class Companion : MonoBehaviour {
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow)) 
             {
-                Move = MoveRight; 
+                Move = MoveRight;
             }
             UpdateKeyboard();
+            recorder.Add(new MoveRecoder(transform.position, this.direction));
         }
         else
         {
@@ -209,15 +223,16 @@ public class Companion : MonoBehaviour {
 
     public virtual void MoveFollow()
     {
-        var recoder = leader.GetComponent<Companion>().recoderPosition;
-        transform.position = recoder[recoder.Count - 30 * number];
+        var recorder = leader.GetComponent<Companion>().recorder;
+        transform.position = recorder[recorder.Count - 30 * number].position;
+        direction = recorder[recorder.Count - 30 * number].direction;
+        UpdateAnim();
     }
 
     public virtual void OnHit() 
     { 
         // Tru HP tai day
     }
-
 
     public virtual void OnDead() 
     { 
