@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ZZZ : MonoBehaviour {
 
+    public Transform panda;
+
     public enum ZDIRECT
     {
         None,
@@ -20,8 +22,8 @@ public class ZZZ : MonoBehaviour {
 	void Update ()
     {
         transform.position += mover * Time.deltaTime * speed;
+        panda.transform.position += mover * Time.deltaTime * speed;
 
-        
 
     }
 

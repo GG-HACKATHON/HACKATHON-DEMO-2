@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PInput : MonoBehaviour
 {
-    public ZZZ zzz;
+    //public ZZZ zzz;
 
 
     private float fingerStartTime = 0.0f;
@@ -14,18 +14,11 @@ public class PInput : MonoBehaviour
     private float minSwipeDist = 50.0f;
     private float maxSwipeTime = 0.5f;
 
+    
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-            zzz.Move(ZZZ.ZDIRECT.Up);
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-            zzz.Move(ZZZ.ZDIRECT.Down);
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            zzz.Move(ZZZ.ZDIRECT.Left);
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            zzz.Move(ZZZ.ZDIRECT.Right);
 
         if (Input.touchCount > 0)
         {
@@ -72,14 +65,14 @@ public class PInput : MonoBehaviour
                             {
                                 if (swipeType.x > 0.0f)
                                 {
-                                    // MOVE RIGHT
-                                    zzz.Move(ZZZ.ZDIRECT.Right);
+                                                    // MOVE RIGHT
+                                    GameManager.Instance.player.TurnRight();
 
                                 }
                                 else
                                 {
                                     // MOVE LEFT
-                                    zzz.Move(ZZZ.ZDIRECT.Left);
+                                    GameManager.Instance.player.TurnLeft();
                                 }
                             }
 
@@ -88,12 +81,12 @@ public class PInput : MonoBehaviour
                                 if (swipeType.y > 0.0f)
                                 {
                                     // MOVE UP
-                                    zzz.Move(ZZZ.ZDIRECT.Up);
+                                    GameManager.Instance.player.TurnUp();
                                 }
                                 else
                                 {
                                     // MOVE DOWN
-                                    zzz.Move(ZZZ.ZDIRECT.Down);
+                                    GameManager.Instance.player.TurnDown();
                                 }
                             }
 
