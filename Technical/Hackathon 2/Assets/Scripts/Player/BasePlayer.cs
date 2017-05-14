@@ -29,7 +29,7 @@ public class BasePlayer : MonoBehaviour {
 	// Update is called once per frame
 	public virtual void OnUpdate()
     {
-        UpdateKeyboard();
+        //UpdateKeyboard();
         UpdateAnim();
     }
 
@@ -39,7 +39,7 @@ public class BasePlayer : MonoBehaviour {
         direction = Direction.DOWN;
     }
 
-    void UpdateKeyboard()
+    public void UpdateKeyboard()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -59,7 +59,7 @@ public class BasePlayer : MonoBehaviour {
         }
     }
 
-    void UpdateAnim()
+    public void UpdateAnim()
     {
         switch(direction)
         {
