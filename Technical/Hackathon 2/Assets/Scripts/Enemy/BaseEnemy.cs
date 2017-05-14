@@ -18,6 +18,11 @@ public class BaseEnemy : BaseMovementObject {
     {
         this.health -= minusHealth;
         if (health <= 0)
+        {
+            GameManager.Instance.player.AddCompanionByType((CompanionManager.CompanionType)Random.Range(0, 3));
+            Destroy(gameObject);
+        }
+        
             Debug.Log("die");
     }
 }

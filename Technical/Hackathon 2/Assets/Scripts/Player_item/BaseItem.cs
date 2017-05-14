@@ -32,6 +32,11 @@ public class BaseItem : MonoBehaviour {
 
     public virtual void MoveTo(GameObject target, float speed)
     {
+        if (target == null)
+        {
+
+            return;
+        }
         Debug.Log("move move move");
         transform.position = Vector3.MoveTowards(gameObject.transform.position,
             target.transform.position,

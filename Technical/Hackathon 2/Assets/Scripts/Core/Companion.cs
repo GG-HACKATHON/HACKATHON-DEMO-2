@@ -93,7 +93,20 @@ public class Companion : MonoBehaviour {
 
     delegate void Action();
     Action Move;
+    public float hpCurrent;
+    public GameObject objHp;
 
+    void UpdateHp(float d)
+    {
+        this.hpCurrent -= d;
+        float scale = this.hpCurrent / this.hp;
+        if (this.hpCurrent <= 0)
+        {
+            this.OnDead();
+        }
+        this.objHp.transform.localScale = new Vector3(scale, 1, 1);
+        
+    }
     public class MoveRecoder
     {
         public Vector3 position;
@@ -113,6 +126,7 @@ public class Companion : MonoBehaviour {
     {
         Setup();
         OnStart();
+        
     }
 
     public virtual void Update()
@@ -123,6 +137,7 @@ public class Companion : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.DownArrow)) 
             {
                 TurnDown();
+                //UpdateHp(10);
             }
             else if (Input.GetKeyDown(KeyCode.UpArrow))
             {
@@ -152,6 +167,7 @@ public class Companion : MonoBehaviour {
         // Trang thai alive
         state = State.ALIVE;
         Move = MoveDown;
+        this.hpCurrent = this.hp;
     }
 
     public virtual void Setup(float hp, float speed, float damage) 
@@ -161,6 +177,7 @@ public class Companion : MonoBehaviour {
         this.hp = hp;
         this.speed = speed;
         this.damage = damage;
+        this.hpCurrent = this.hp;
     }
 
     public virtual void Setup(float hp, float speed, float damage, GameObject leader)
@@ -221,13 +238,15 @@ public class Companion : MonoBehaviour {
         UpdateAnim();
     }
 
-    public virtual void OnHit() 
+    public virtual void OnHit(float d) 
     { 
         // Tru HP tai day
+        this.UpdateHp(d);
     }
 
     public virtual void OnDead() 
-    { 
+    {
+        Destroy(gameObject);
         // Trang thai chet
         state = State.DEAD;
     }
