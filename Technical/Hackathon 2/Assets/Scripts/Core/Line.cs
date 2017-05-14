@@ -52,6 +52,7 @@ public class Line : MonoBehaviour {
         GameObject ori = CompanionManager.Instance.GetCompanionByType(type);
         if (ori == null)
         {
+            Debug.Log("NO TURTLE");
             return;
         }
 
