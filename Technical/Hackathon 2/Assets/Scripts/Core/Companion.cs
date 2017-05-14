@@ -126,22 +126,22 @@ public class Companion : MonoBehaviour {
         {
             UpdateAnim();
             if (Input.GetKeyDown(KeyCode.DownArrow)) 
-            { 
-                Move = MoveDown;
+            {
+                TurnDown();
             }
             else if (Input.GetKeyDown(KeyCode.UpArrow))
             {
-                Move = MoveUp; 
+                TurnUp();
             }
             else if (Input.GetKeyDown(KeyCode.LeftArrow))
-            { 
-                Move = MoveLeft; 
+            {
+                TurnLeft();
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow)) 
             {
-                Move = MoveRight;
+                TurnRight();
             }
-            UpdateKeyboard();
+            //UpdateKeyboard();
             recorder.Add(new MoveRecoder(transform.position, this.direction));
         }
         else
@@ -197,21 +197,25 @@ public class Companion : MonoBehaviour {
     public virtual void TurnLeft()
     {
         Move = MoveLeft;
+        direction = Direction.LEFT;
     }
 
     public virtual void TurnRight()
     {
         Move = MoveRight;
+        direction = Direction.RIGHT;
     }
 
     public virtual void TurnDown()
     {
         Move = MoveDown;
+        direction = Direction.DOWN;
     }
 
     public virtual void TurnUp()
     {
         Move = MoveUp;
+        direction = Direction.UP;
     }
 
     public virtual void MoveFollow()
