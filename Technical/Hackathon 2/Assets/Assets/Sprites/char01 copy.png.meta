@@ -1,9 +1,105 @@
 fileFormatVersion: 2
 guid: 8df851ccae543d748a026344099e2a63
-timeCreated: 1494735479
-licenseType: Free
+timeCreated: 1494741206
+licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: char01 copy_0
+    21300002: char01 copy_1
+    21300004: char01 copy_2
+    21300006: char01 copy_3
+    21300008: char01 copy_4
+    21300010: char01 copy_5
+    21300012: char01 copy_6
+    21300014: char01 copy_7
+    21300016: char01 copy_8
+    21300018: char01 copy_9
+    21300020: char01 copy_10
+    21300022: char01 copy_11
+    21300024: char01 copy_12
+    21300026: char01 copy_13
+    21300028: char01 copy_14
+    21300030: char01 copy_15
+    21300032: char01 copy_16
+    21300034: char01 copy_17
+    21300036: char01 copy_18
+    21300038: char01 copy_19
+    21300040: char01 copy_20
+    21300042: char01 copy_21
+    21300044: char01 copy_22
+    21300046: char01 copy_23
+    21300048: char01 copy_24
+    21300050: char01 copy_25
+    21300052: char01 copy_26
+    21300054: char01 copy_27
+    21300056: char01 copy_28
+    21300058: char01 copy_29
+    21300060: char01 copy_30
+    21300062: char01 copy_31
+    21300064: char01 copy_32
+    21300066: char01 copy_33
+    21300068: char01 copy_34
+    21300070: char01 copy_35
+    21300072: char01 copy_36
+    21300074: char01 copy_37
+    21300076: char01 copy_38
+    21300078: char01 copy_39
+    21300080: char01 copy_40
+    21300082: char01 copy_41
+    21300084: char01 copy_42
+    21300086: char01 copy_43
+    21300088: char01 copy_44
+    21300090: char01 copy_45
+    21300092: char01 copy_46
+    21300094: char01 copy_47
+    21300096: char01 copy_48
+    21300098: char01 copy_49
+    21300100: char01 copy_50
+    21300102: char01 copy_51
+    21300104: char01 copy_52
+    21300106: char01 copy_53
+    21300108: char01 copy_54
+    21300110: char01 copy_55
+    21300112: char01 copy_56
+    21300114: char01 copy_57
+    21300116: char01 copy_58
+    21300118: char01 copy_59
+    21300120: char01 copy_60
+    21300122: char01 copy_61
+    21300124: char01 copy_62
+    21300126: char01 copy_63
+    21300128: char01 copy_64
+    21300130: char01 copy_65
+    21300132: char01 copy_66
+    21300134: char01 copy_67
+    21300136: char01 copy_68
+    21300138: char01 copy_69
+    21300140: char01 copy_70
+    21300142: char01 copy_71
+    21300144: char01 copy_72
+    21300146: char01 copy_73
+    21300148: char01 copy_74
+    21300150: char01 copy_75
+    21300152: char01 copy_76
+    21300154: char01 copy_77
+    21300156: char01 copy_78
+    21300158: char01 copy_79
+    21300160: char01 copy_80
+    21300162: char01 copy_81
+    21300164: char01 copy_82
+    21300166: char01 copy_83
+    21300168: char01 copy_84
+    21300170: char01 copy_85
+    21300172: char01 copy_86
+    21300174: char01 copy_87
+    21300176: char01 copy_88
+    21300178: char01 copy_89
+    21300180: char01 copy_90
+    21300182: char01 copy_91
+    21300184: char01 copy_92
+    21300186: char01 copy_93
+    21300188: char01 copy_94
+    21300190: char01 copy_95
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +130,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +154,1281 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: char01 copy_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 907
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 907
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 907
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 907
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 907
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 907
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 907
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 907
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 907
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 907
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_10
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 907
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 907
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 824
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 824
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 824
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 824
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 824
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 823
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 824
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 823
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_20
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 824
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_21
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 823
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_22
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 823
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_23
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 823
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 724
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 723
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 723
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 723
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_28
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 724
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 723
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 722
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 723
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_32
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 724
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_33
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 724
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 724
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_35
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 724
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_36
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 724
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_37
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 724
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 724
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_39
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 724
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 614
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 613
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 613
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 613
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_44
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 614
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 613
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_46
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 612
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 613
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_48
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 614
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_49
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 613
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_50
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 611
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_51
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 613
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 515
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_53
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 514
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_54
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 513
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 514
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_56
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 515
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_57
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 515
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_58
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 515
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_59
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 515
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_60
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 515
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_61
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 514
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_62
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 513
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_63
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 514
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_64
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 413
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 413
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_66
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 413
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_67
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 413
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_68
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 413
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_69
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 411
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_70
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 411
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_71
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 413
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_72
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 411
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_73
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 411
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_74
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 413
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_75
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 411
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_76
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 411
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_77
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 313
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_78
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 311
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_79
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 311
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_80
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 313
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_81
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 313
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_82
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 313
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_83
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 313
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 313
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_85
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 313
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_86
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 313
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_87
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 313
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_88
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 313
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_89
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 313
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_90
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 313
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_91
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 313
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_92
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 313
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_93
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_94
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 205
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: char01 copy_95
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 205
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
