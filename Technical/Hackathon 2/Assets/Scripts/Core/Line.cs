@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Line : MonoBehaviour {
 
+    
     public GameObject panda;
+    public Companion leader;
 
     List<GameObject> line = new List<GameObject>();
+
+    public void Awake()
+    {
+        line.Add(leader.gameObject);
+    }
 
     [ContextMenu("Add companion")]
     public void AddCompanion()
