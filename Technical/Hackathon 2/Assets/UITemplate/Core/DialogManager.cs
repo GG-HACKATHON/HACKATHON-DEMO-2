@@ -29,7 +29,7 @@ public class DialogManager : MonoSingleton<DialogManager>
 
     public T ShowDialog<T>(string pathPrefabs, object data = null, Transform transf = null) where T : BaseDialog
     {
-        ShowOverlay(UIOverlay.TYPE.DIALOG);
+        //ShowOverlay(UIOverlay.TYPE.DIALOG);
         T target = (T)FindObjectOfType(typeof(T));
         if (target == null)
         {
@@ -148,7 +148,7 @@ public class DialogManager : MonoSingleton<DialogManager>
     public void ShowMessageBox(string content, MESSAGETYPE type = MESSAGETYPE.OK, MessageBox.CallbackOk callback = null)
     {
         ShowOverlay(UIOverlay.TYPE.MESSAGEBOX);
-        GameObject obj = Instantiate(Resources.Load("")) as GameObject;
+        GameObject obj = Instantiate(Resources.Load("Dialog/Landspace/MessageBox")) as GameObject;
         obj.SetActive(true);
         obj.transform.SetParent(this.scene.panelPopup);
         obj.transform.localScale = Vector3.one;

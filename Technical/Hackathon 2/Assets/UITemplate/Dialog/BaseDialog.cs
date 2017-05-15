@@ -20,6 +20,6 @@ public class BaseDialog : MonoBehaviour {
     }
     public virtual void OnCloseDialog()
     {
-        //DialogManager.Instance.CloseDialog(this);
+        DialogManager.Instance.CloseDialog(this);
     }
 }

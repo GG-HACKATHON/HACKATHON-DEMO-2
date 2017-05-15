@@ -8,6 +8,11 @@ public class BaseScene : MonoBehaviour
     public int index;
     private object data;
 
+    void Start()
+    {
+        DialogManager.Instance.ShowDialog<DialogGameStart>("Dialog/Portrait/GameStart");
+    }
+
     public virtual void OnShow(object data)
     {
         this.data = data;
@@ -20,5 +25,10 @@ public class BaseScene : MonoBehaviour
     { }
     public virtual void Init()
     { }
+
+    public void onClickPause()
+    {
+        DialogManager.Instance.ShowDialog<DialogGamePause>("Dialog/Portrait/GamePause");
+    }
 
 }
